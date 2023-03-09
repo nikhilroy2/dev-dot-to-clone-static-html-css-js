@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.css'
+        integrity='sha512-4wFGk961cJS2gpSfzy1vU+R8Q93foZOoGgfEDetiClOqNvggdtnRpdCsAgfm8VU9mKkv2unla8RBYwA6hoFwqg=='
+        crossorigin='anonymous' />
+    <link rel="stylesheet" href="./scss/main/main.css">
+</head>
+
+<body>
+    <header id="header">
+        <div class="container_wrapper">
+            <div class="flex_row">
+                <div class="flex_item header_left">
+                    <a href="#" class="icon_link">
+                        <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/logos/resized_logo_UQww2soKuUsjaOGNB38o.png"
+                            alt="img">
+                    </a>
+                    <div class="search_box">
+                        <input type="text" placeholder="Search..." class="search_box_input">
+                        <i class="fas fa-search    "></i>
+                    </div>
+                </div>
+                <div class="flex_item header_right">
+                    <a href="#" class="btn_create">
+                        Create Post
+                    </a>
+                    <button class="notify_btn">
+                        <i class="fas fa-bell    "></i>
+                    </button>
+                    <div class="user_details">
+                        <a class="avatar_action" href="javascript:void(0)">
+                            <img src="https://png.pngtree.com/element_our/20190604/ourmid/pngtree-user-avatar-boy-image_1482937.jpg"
+                                alt="avatar">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container_wrapper">
+            <aside id="aside">
+                <ul class="aside_list">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li><a href="#">Listings</a></li>
+                    <li><a href="#">Podcasts</a></li>
+                    <li><a href="#">Videos</a></li>
+                    <li><a href="#">Tags</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Forem Shop</a></li>
+                    <li><a href="#">Sponsors</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Guides</a></li>
+                    <li><a href="#">Software comparisons</a></li>
+                </ul>
+
+                <strong>
+                    Others
+                </strong>
+                <ul class="aside_list">
+                    <li>
+                        <a href="#">Code of Conduct</a>
+                    </li>
+                    <li><a href="#">
+                            Privacy Policy
+                        </a></li>
+                    <li><a href="#">
+                            Terms of use
+                        </a></li>
+
+                </ul>
+                <ul class="social_list">
+                    <li><a href="#">
+                            <i class="fab fa-twitter    "></i>
+                        </a></li>
+                    <li><a href="#">
+                            <i class="fab fa-facebook    "></i>
+                        </a></li>
+                    <li><a href="#">
+                            <i class="fab fa-github    "></i>
+                        </a></li>
+                    <li><a href="#">
+                            <i class="fab fa-instagram    "></i>
+                        </a></li>
+                    <li><a href="#">
+                            <i class="fab fa-youtube    "></i>
+                        </a></li>
+                    <li><a href="#">
+                            <i class="fab fa-google-play    "></i>
+                        </a></li>
+                </ul>
+            </aside>
+
+            <!-- post section -->
+            <div class="post_section">
+                <div class="post_tab">
+                    <button class="post_tab_btn active_btn">
+                        Relavant
+                    </button>
+                    <button class="post_tab_btn">
+                        Latest
+                    </button>
+                    <button class="post_tab_btn">
+                        Top
+                    </button>
+                </div>
+                <div class="post_view">
+                    <ul class="post_view_list">
+                        <!-- list appending -->
+                        <li class="post_view_list_item">
+                            <div class="post_header">
+                                <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--mPLBxt5k--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/hukkg7utmsnb4wonpbbx.jpg"
+                                    alt="" class="post_img">
+                            </div>
+                            <div class="post_body">
+                                <div class="post_content">
+                                    <div class="user_avatar_detail">
+                                        <img class="user_avatar_img"
+                                            src="https://png.pngtree.com/element_our/20190604/ourmid/pngtree-user-avatar-boy-image_1482937.jpg"
+                                            alt="">
+                                        <div class="details_box">
+                                            <span>Jess Lee</span> for
+                                            <span>The DEV Team</span>
+                                            <div class="timer">
+                                                Mar 8 (18 hours ago)
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="post_title">
+                                        <h2 class="title_heading">
+                                            Join us for #WeCoded 2023!
+                                        </h2>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </li>
+                        <!-- list appending -->
+                        <li class="post_view_list_item">
+                            <div class="post_header">
+                                <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--mPLBxt5k--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/hukkg7utmsnb4wonpbbx.jpg"
+                                    alt="" class="post_img">
+                            </div>
+                            <div class="post_body">
+                                <div class="post_content">
+                                    <div class="user_avatar_detail">
+                                        <img class="user_avatar_img"
+                                            src="https://png.pngtree.com/element_our/20190604/ourmid/pngtree-user-avatar-boy-image_1482937.jpg"
+                                            alt="">
+                                        <div class="details_box">
+                                            <span>Jess Lee</span> for
+                                            <span>The DEV Team</span>
+                                            <div class="timer">
+                                                Mar 8 (18 hours ago)
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="post_title">
+                                        <h2 class="title_heading">
+                                            Join us for #WeCoded 2023!
+                                        </h2>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </li>
+                        <!-- list appending -->
+                        <li class="post_view_list_item">
+                            <div class="post_header">
+                                <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--mPLBxt5k--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/hukkg7utmsnb4wonpbbx.jpg"
+                                    alt="" class="post_img">
+                            </div>
+                            <div class="post_body">
+                                <div class="post_content">
+                                    <div class="user_avatar_detail">
+                                        <img class="user_avatar_img"
+                                            src="https://png.pngtree.com/element_our/20190604/ourmid/pngtree-user-avatar-boy-image_1482937.jpg"
+                                            alt="">
+                                        <div class="details_box">
+                                            <span>Jess Lee</span> for
+                                            <span>The DEV Team</span>
+                                            <div class="timer">
+                                                Mar 8 (18 hours ago)
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="post_title">
+                                        <h2 class="title_heading">
+                                            Join us for #WeCoded 2023!
+                                        </h2>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </li>
+                        <!-- list appending -->
+                        <li class="post_view_list_item">
+                            <div class="post_header">
+                                <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--mPLBxt5k--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/hukkg7utmsnb4wonpbbx.jpg"
+                                    alt="" class="post_img">
+                            </div>
+                            <div class="post_body">
+                                <div class="post_content">
+                                    <div class="user_avatar_detail">
+                                        <img class="user_avatar_img"
+                                            src="https://png.pngtree.com/element_our/20190604/ourmid/pngtree-user-avatar-boy-image_1482937.jpg"
+                                            alt="">
+                                        <div class="details_box">
+                                            <span>Jess Lee</span> for
+                                            <span>The DEV Team</span>
+                                            <div class="timer">
+                                                Mar 8 (18 hours ago)
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="post_title">
+                                        <h2 class="title_heading">
+                                            Join us for #WeCoded 2023!
+                                        </h2>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </li>
+                        <!-- list appending -->
+                        <li class="post_view_list_item">
+                            <div class="post_header">
+                                <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--mPLBxt5k--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/hukkg7utmsnb4wonpbbx.jpg"
+                                    alt="" class="post_img">
+                            </div>
+                            <div class="post_body">
+                                <div class="post_content">
+                                    <div class="user_avatar_detail">
+                                        <img class="user_avatar_img"
+                                            src="https://png.pngtree.com/element_our/20190604/ourmid/pngtree-user-avatar-boy-image_1482937.jpg"
+                                            alt="">
+                                        <div class="details_box">
+                                            <span>Jess Lee</span> for
+                                            <span>The DEV Team</span>
+                                            <div class="timer">
+                                                Mar 8 (18 hours ago)
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="post_title">
+                                        <h2 class="title_heading">
+                                            Join us for #WeCoded 2023!
+                                        </h2>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </li>
+                        <!-- list appending -->
+                        <li class="post_view_list_item">
+                            <div class="post_header">
+                                <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--mPLBxt5k--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/hukkg7utmsnb4wonpbbx.jpg"
+                                    alt="" class="post_img">
+                            </div>
+                            <div class="post_body">
+                                <div class="post_content">
+                                    <div class="user_avatar_detail">
+                                        <img class="user_avatar_img"
+                                            src="https://png.pngtree.com/element_our/20190604/ourmid/pngtree-user-avatar-boy-image_1482937.jpg"
+                                            alt="">
+                                        <div class="details_box">
+                                            <span>Jess Lee</span> for
+                                            <span>The DEV Team</span>
+                                            <div class="timer">
+                                                Mar 8 (18 hours ago)
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="post_title">
+                                        <h2 class="title_heading">
+                                            Join us for #WeCoded 2023!
+                                        </h2>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </li>
+                        <!-- list appending -->
+                        <li class="post_view_list_item">
+                            <div class="post_header">
+                                <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--mPLBxt5k--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/hukkg7utmsnb4wonpbbx.jpg"
+                                    alt="" class="post_img">
+                            </div>
+                            <div class="post_body">
+                                <div class="post_content">
+                                    <div class="user_avatar_detail">
+                                        <img class="user_avatar_img"
+                                            src="https://png.pngtree.com/element_our/20190604/ourmid/pngtree-user-avatar-boy-image_1482937.jpg"
+                                            alt="">
+                                        <div class="details_box">
+                                            <span>Jess Lee</span> for
+                                            <span>The DEV Team</span>
+                                            <div class="timer">
+                                                Mar 8 (18 hours ago)
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="post_title">
+                                        <h2 class="title_heading">
+                                            Join us for #WeCoded 2023!
+                                        </h2>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
